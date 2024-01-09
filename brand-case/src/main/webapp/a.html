@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <style>
+        .text-container {
+            display: flex;
+        }
+        .left-half {
+            flex: 1; /* 占据左侧一半空间 */
+            text-align: left;
+        }
+        .right-half {
+            flex: 1; /* 占据右侧一半空间 */
+            text-align: right;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="text-container">
+    <div class="left-half">
+        <!-- 左侧文字 -->
+        <p>这是左侧文字</p>
+    </div>
+
+    <div class="right-half">
+        <!-- 右侧文字 -->
+        <p>这是右侧文字</p>
+    </div>
+</div>
+
+
+<div style="display: flex;">
+    <span style="flex-grow: 1; text-align: left;">这是一行文字
+    <button style="flex-grow:0; text-align: left;">按钮</button>
+    </span>
+
+
+    <button style="flex-grow: 0; text-align: right;">按钮</button>
+
+</div>
+
+
+</body>
+</html>
